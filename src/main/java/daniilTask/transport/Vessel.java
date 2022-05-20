@@ -7,6 +7,7 @@ public class Vessel extends Vehicles{
 
     @Override
     public void go() {
+        //TODO: изменить это с исспользованием StringBuilder
         System.out.println(getName()+ " это русский военный корабль, который пошел на*уй со скоростью " + getSpeed() + " узлов");
     }
 }

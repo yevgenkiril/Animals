@@ -19,4 +19,11 @@ public abstract class Vehicles implements Go {
         this.speed = speed;
     }
 
+    @Override
+    public String toString() {
+        return "Vehicles{" +
+                "speed=" + speed +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

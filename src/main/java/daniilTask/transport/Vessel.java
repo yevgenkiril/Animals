@@ -13,7 +13,5 @@ public class Vessel extends Vehicles {
         result.append(getSpeed());
         result.append(" узлов");
         System.out.println(result);
-//        //TODO: изменить это с исспользованием StringBuilder
-//        System.out.println(getName()+ " это русский военный корабль, который пошел на*уй со скоростью " + getSpeed() + " узлов");
     }
 }
